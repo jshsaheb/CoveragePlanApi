@@ -25,7 +25,7 @@ namespace CoveragePlanApi.Models
         public string customerCountry { get; set; }
 
         [Column(TypeName = "datetime")]
-        public DateTime customerDateofBirth { get; set; }
+        public DateTime customerDateofBirth { get; set; } 
 
         [Column(TypeName = "datetime")]
         public DateTime saleDate { get; set; }
